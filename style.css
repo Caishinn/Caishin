@@ -594,17 +594,8 @@ footer .cols .news-col form button i{
     #menu{
         display: block;
     }
-    .navbar{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        background-color: var(--bg-color);
-        padding: 0 25px;
-    }
-    .navbar h1{
-        font-size: 24px;
-        gap: 0.5rem;
-    }
+    
+    
 }
 
 /*@media screen and (max-width: 850px) {
@@ -612,10 +603,7 @@ footer .cols .news-col form button i{
         display: none;
     }
 
-    .navbar h1{
-        font-size: 24px;
-        gap: 0.5rem;
-    }
+    
 
 }*/
 
@@ -623,7 +611,17 @@ footer .cols .news-col form button i{
     
     /*.navbar button{
         display: none;
-    }*/
+    }*/.navbar h1{
+        font-size: 24px;
+        gap: 0.5rem;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--bg-color);
+        padding: 0 50px;
+    }
 
     .main h2{
         font-size: 26px;
@@ -742,6 +740,17 @@ footer .cols .news-col form button i{
     }
     .main h2{
         font-size: 22px;
+    }
+    .navbar h1{
+        font-size: 24px;
+        gap: 0.5rem;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--bg-color);
+        padding: 0 25px;
     }
 }
 /*@media screen and (max-width: 430px) {
