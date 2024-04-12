@@ -586,11 +586,11 @@ footer .cols .news-col form button i{
         display: none;
     }
 
-    .ul{
+    /*.ul{
         align-items: center;
         justify-content: space-between;
         padding: 0 50px;
-    }
+    }*/
     #menu{
         display: block;
     }
