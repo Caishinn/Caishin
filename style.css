@@ -14,7 +14,7 @@
   --bg-color: #212529;
   --second-bg-color: #131313;
   --text-color: white;
-  --main-color: #616e77;
+  --main-color: #2f78ac;
 }
 body {
   background-color: var(--bg-color);
@@ -151,7 +151,7 @@ span {
   position: relative;
 }
 .title span::before {
-  content: "UI & UX DESINGER";
+  content: "FINANCE & ADMIN ASSISTANT";
   color: var(--main-color);
   animation: words 20s infinite;
 }
@@ -173,7 +173,7 @@ span {
 @keyframes words {
   0%,
   100% {
-    content: "Accouting";
+    content: "FINANCE & ADMIN ASSISTANT";
   }
 }
 @keyframes typing {
@@ -474,7 +474,7 @@ footer .cols .news-col form button {
   height: 50px;
   background: var(--main-color);
   border: none;
-  border-radius: 50%;
+  border-radius: 16px;
   position: absolute;
   top: 0;
   right: 0;
@@ -729,19 +729,14 @@ footer .cols .news-col form button i {
     padding: 0 25px;
   }
 }
-/*@media screen and (max-width: 430px) {
-    
-    .main p.title{
-        font-size: 18px;
-    }
-
-    .main p.subtitle{
-        font-size: 1rem;
-        align-items: center;
-        padding: 0 50px;
-        text-align: center;
-    }
-}*/
+@media screen and (max-width: 430px) {
+  .main p.title {
+    font-size: 22px;
+  }
+  .main h2 {
+    font-size: 20px;
+  }
+}
 /*@media screen and (max-width: 406px) {
     
     .main p.title{
