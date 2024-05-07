@@ -46,26 +46,49 @@ span {
   box-shadow: var(--main-color);
   cursor: pointer;
 }
-.navbar ul {
+ul {
   display: flex;
 }
-.navbar ul li {
+ul li {
   list-style: none;
 }
-.navbar ul li a {
+ul li a {
   text-decoration: none;
   color: var(--text-color);
   font-size: 1rem;
   margin-right: 2.5rem;
   transition: 0.3s ease-in-out;
 }
-.navbar ul li:hover a {
+ul li:hover a {
   color: var(--main-color);
 }
-.navbar ul li:last-child a {
+ul li:last-child a {
   margin: 0;
 }
 
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: rgb(27, 27, 27);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sidebar li {
+  width: 100%;
+}
+.sidebar a {
+  width: 100%;
+}
+.hide {
+  display: none;
+}
 /*--------download button--------*/
 
 .btn {
@@ -564,10 +587,18 @@ footer .cols .news-col form button i {
   .navbar button {
     display: none;
   }
-  .navbar ul li a {
+  ul li a {
     display: none;
   }
+  .sidebar li a {
+    display: block;
+    padding: 2rem;
+  }
 
+  .hide {
+    display: block;
+    padding: 1.5rem;
+  }
   /*.ul{
         align-items: center;
         justify-content: space-between;

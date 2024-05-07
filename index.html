@@ -14,16 +14,26 @@
     <header id="home">
         <div class="navbar">
             <h1>Duong <span>Pisey</span></h1>
-            <ul class="ul">
+            <ul class="sidebar">
+                <div class="hide" onclick=hideSidebar() ><i class='bx bx-x' id="menu"></i></div>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skill">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
             </ul>
             <!--button class="btn"><i class='bx bxs-graduation' id="all-icon"></i></i>
                 <a download href="#">Download CV</a>
             </button-->
-            <i class='bx bx-menu' id="menu"></i>
+            <i onclick=showSidebar() class='bx bx-menu' id="menu"></i>
+            
         </div>
     
         <!------------ Information ------------->
@@ -34,7 +44,7 @@
             
             <h2>Hi, <span>I AM</span></h2>
             <p class="title"><span></span></p>
-            <p class="subtitle">This is my personal prortfolio, If you Looking for UI & UX Designer who works hard but stay humble, please contact me. i love to join with your team.</p>
+            <p class="subtitle">Hi, It's Duong Pisey, are you looking for Finance and Admin Assistent who works hard but stay humble, please contact me. i love to join with your team.</p>
             
         </div>   
         
@@ -44,7 +54,7 @@
                     <i class='bx bxs-bulb' ></i>
                 </div>
                 <div class="info">
-                    <h3>+5</h3>
+                    <h3>+3</h3>
                     <p>Years Of Experiences</p>
                 </div>
             </div>
@@ -146,7 +156,7 @@
             <h3>Start a project</h3>
             <p>Interested in working together? We should queue up a chat. I’ll buy the coffee.</p>
             <button class="btn-do-this">
-                <a href="#">Let's do this</a>
+                <a href="#contact">Let's do this</a>
             </button>
         </div>
 
@@ -166,8 +176,8 @@
 
             <div class="links-social">
                 <h4>Social Media</h4>
-                <a href="https://t.me/thangchiv" target="_blank"><i class='bx bxl-telegram' id="all-icon" ></i></a>
-                <a href="https://www.facebook.com/caishin2448" target="_blank"><i class='bx bxl-facebook-circle' id="all-icon"></i></a>
+                <a href="" target="_blank"><i class='bx bxl-telegram' id="all-icon" ></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100008944127506" target="_blank"><i class='bx bxl-facebook-circle' id="all-icon"></i></a>
             </div>
 
             <div class="news-col">
@@ -187,5 +197,16 @@
         </div>
 
     </footer>
+
+    <script>
+        function showSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'none'
+        }
+      </script>
 </body>
 </html>
