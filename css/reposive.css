@@ -249,6 +249,9 @@
     background-color: var(--bg-color);
     padding: 0 25px;
   }
+  .contact-info-contact p {
+    font-size: 0.9rem;
+  }
 }
 @media screen and (max-width: 430px) {
   .main p.title {

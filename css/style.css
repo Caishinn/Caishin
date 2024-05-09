@@ -441,9 +441,8 @@ section {
   display: block;
   justify-content: center;
   align-items: center;
-  border-radius: 16px;
   background-color: #292b2e;
-  margin: 0 35rem;
+  margin: 2rem auto;
   padding: 16px 0;
 }
 .text {
@@ -487,12 +486,7 @@ section {
 footer {
   position: relative;
   background: var(--bg-color);
-  padding: 50px 50px 50px;
-}
-footer button {
-  margin-left: 50rem;
-  align-items: center;
-  justify-content: center;
+  padding: 15px 15px 15px;
 }
 
 /*footer .start {
