@@ -195,12 +195,24 @@ ul li:last-child a {
 }*/
 @keyframes words {
   0%,
-  50% {
+  20% {
     content: "FINANCE & ADMIN ASSISTANT";
   }
-  55%,
-  100% {
+  21%,
+  40% {
     content: "ACCOUNTANT & CASHIER";
+  }
+  41%,
+  60% {
+    content: "FINANCE & ADMIN ASSISTANT";
+  }
+  61%,
+  80% {
+    content: "ACCOUNTANT & CASHIER";
+  }
+  81%,
+  100% {
+    content: "FINANCE & ADMIN ASSISTANT";
   }
 }
 @keyframes typing {
