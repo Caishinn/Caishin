@@ -195,8 +195,12 @@ ul li:last-child a {
 }*/
 @keyframes words {
   0%,
-  100% {
+  50% {
     content: "FINANCE & ADMIN ASSISTANT";
+  }
+  55%,
+  100% {
+    content: "ACCOUNTANT & CASHIER";
   }
 }
 @keyframes typing {
@@ -429,7 +433,7 @@ section {
   color: #666;
   font-size: 16px;
 }
-.box p strong {
+.box span {
   line-height: 1.2;
   color: rgb(89, 157, 184);
   font-size: 16px;
