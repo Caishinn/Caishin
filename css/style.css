@@ -14,7 +14,7 @@
   --bg-color: rgb(21, 25, 29);
   --second-bg-color: #131313;
   --text-color: white;
-  --main-color: #2f78ac;
+  --main-color: rgb(176, 89, 184);
 }
 body {
   background-color: var(--bg-color);
@@ -109,7 +109,7 @@ ul li:last-child a {
   color: var(--text-color);
 }
 .btn:hover {
-  background: skyblue;
+  background: rgb(218, 23, 91);
   transform: scale(1.05);
 }
 
@@ -447,7 +447,7 @@ section {
 }
 .box span {
   line-height: 1.2;
-  color: rgb(89, 157, 184);
+  color: rgb(218, 23, 91);
   font-size: 16px;
 }
 
