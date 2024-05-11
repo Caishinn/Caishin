@@ -493,7 +493,7 @@ section {
   font-size: 24px;
   display: flex;
 }
-.contact-info-contact a {
+.contact-info-contact p {
   color: grey;
 }
 .back{
